@@ -38,7 +38,7 @@ public class Doubler {
 		
 		try {
 			outputStream = new ObjectOutputStream(
-					new FileOutputStream(outputFileName));
+					new FileOutputStream(outputFileName)); 
 		} catch(IOException e) {
 			System.out.println("Error opening output file " + outputFileName);
 			System.out.println(e.getMessage());
